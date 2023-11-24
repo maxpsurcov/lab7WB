@@ -1,0 +1,61 @@
+body{
+    box-sizing: border-box;
+    background-color: #d9d9d9;
+    font-family: "Courier New";
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.rectangle {
+    width: 500px;
+    height: 600px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.image {
+    width: 255px;
+    height: 255px;
+    background-image: url('unnamed.jpg');
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+/* Стили для второго прямоугольника */
+.rectangle2 {
+    width: 500px;
+    height: 600px;
+    background-color: #ec8145;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    text-align: center;
+    color: #ffffff;
+
+
+}
+
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link {
+    margin: 0 10px;
+}
