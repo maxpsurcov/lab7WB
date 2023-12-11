@@ -1,0 +1,206 @@
+
+.item {
+    display: flex;
+    border: 1px solid whitesmoke;
+}
+.wrapper{
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 90vh;
+  width: 100%;
+  box-sizing: border-box;
+  grid-gap: 3px;
+    
+}
+.item1 {
+    background-color: #5a9bd5;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+  }
+  
+  .item2 {
+    background-color: #6e7d82;
+    grid-column: 4 / 5;
+    grid-row: 1 / 4;
+  }
+  
+  .item3 {
+    background-color: #5bd1d1;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  
+  .item4 {
+    background-color: #e16b6b;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  
+  .item5 {
+    background-color: #ffc000;
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+  }
+  
+  .item6 {
+    background-color: #30a475;
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+  }
+  
+  .item7 {
+    background-color: #c55b11;
+    grid-column: 1 / 5;
+    grid-row: 4 / 5;
+  }
+
+    
+  @media (min-width: 500px) and (max-width: 749px) {
+        
+        .wrapper {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(7, 1fr);
+        
+        }
+        .item1 {
+            background-color: #5a9bd5;
+            grid-column: 1 /  2;
+            grid-row:  1 /  2;
+          }
+          
+          .item2 {
+            background-color: #6e7d82;
+            grid-column:1 / 2;
+            grid-row:  2 / 3;
+          }
+          
+          .item3 {
+            background-color: #5bd1d1;
+            grid-column: 1 / 2;
+            grid-row:  3 / 4;
+          }
+          
+          .item4 {
+            background-color: #e16b6b;
+            grid-column: 1 /  2;
+            grid-row:  4 / 5;
+          }
+          
+          .item5 {
+            background-color: #ffc000;
+            grid-column: 1 /  2;
+            grid-row: 5 /  6;
+          }
+          
+          .item6 {
+            background-color: #30a475;
+            grid-column: 1 /  2;
+            grid-row: 6 / 7;
+          }
+          
+          .item7 {
+            background-color: #c55b11;
+            grid-column: 1 /  2;
+            grid-row: 7 / 8;
+          }
+      }
+      
+      @media (min-width: 750px) and (max-width: 1000px) {
+        
+        .wrapper {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(4, 1fr);
+        
+        }
+        .item1 {
+            background-color: #5a9bd5;
+            grid-column: 1 /  2;
+            grid-row:  1 /  2;
+          }
+          
+          .item2 {
+            background-color: #6e7d82;
+            grid-column:2 / 3;
+            grid-row:  1 / 2;
+          }
+          
+          .item3 {
+            background-color: #5bd1d1;
+            grid-column: 1 / 2;
+            grid-row:  2 / 3;
+          }
+          
+          .item4 {
+            background-color: #e16b6b;
+            grid-column: 2 /  3;
+            grid-row:  2 / 3;
+          }
+          
+          .item5 {
+            background-color: #ffc000;
+            grid-column: 1 /  2;
+            grid-row: 3 /  4;
+          }
+          
+          .item6 {
+            background-color: #30a475;
+            grid-column: 2 /  3;
+            grid-row: 3 / 4;
+          }
+          
+          .item7 {
+            background-color: #c55b11;
+            grid-column: 1 /  3;
+            grid-row: 4 / 5;
+          }
+      }
+      @media (min-width: 1001px) and (max-width: 1350px) {
+        
+        .wrapper {
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        
+        }
+        .item1 {
+            background-color: #5a9bd5;
+            grid-column: 1 /  2;
+            grid-row:  1 /  2;
+          }
+          
+          .item2 {
+            background-color: #6e7d82;
+            grid-column:2 / 3;
+            grid-row:  1 / 2;
+          }
+          
+          .item3 {
+            background-color: #5bd1d1;
+            grid-column: 3 / 4;
+            grid-row: 1 / 2;
+          }
+          
+          .item4 {
+            background-color: #e16b6b;
+            grid-column: 2 /  3;
+            grid-row: 1 / 2;
+          }
+          
+          .item5 {
+            background-color: #ffc000;
+            grid-column: 4 / 5;
+            grid-row: 1 / 2;
+          }
+          
+          .item6 {
+            background-color: #30a475;
+            grid-column: 6 /  7;
+            grid-row: 1 / 2;
+          }
+          
+          .item7 {
+            background-color: #c55b11;
+            grid-column: 1 /  7;
+            grid-row: 2 / 3;
+          }
+      }
