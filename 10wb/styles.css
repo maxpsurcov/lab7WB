@@ -1,0 +1,52 @@
+body {
+    background-color: blanchedalmond;
+    
+  }
+  
+  /* Червоний рядок на початку абзаців */
+  p {
+    text-indent: 1em; /* Ширина червоного рядка */
+    border-left: 3px solid red; /* Колір та ширина лінії */
+    padding-left: 10px; /* Відступ ліворуч від тексту */
+  }
+  
+  /* Вирівнювання тексту абзаців по ширині */
+  p {
+    text-align: justify;
+  }
+  
+  .container {
+    margin-left: 20px; /* Відстань ліворуч */
+    margin-right: 20px; /* Відстань праворуч */
+  }
+  
+  /* Стиль тексту – курсив */
+  p, h1 {
+    font-style: italic;
+    font-size: 16px;
+  }
+  
+  /* Заголовок 1-го рівня */
+  h1 {
+    font-weight: bold; /* Жирний стиль */
+    text-align: center; /* Вирівнювання по центру */
+    color: blue; /* Колір тексту */
+    font-style: normal; /* Нормальний стиль тексту */
+  }
+  A:link{ /* стиль не відвіданого посилання*/
+    color: green; /* колір – зелений*/
+    text-decoration:none;
+    }
+    A:active { /* стиль активного посилання */
+    color: #0000FF; /* колір - синій*/
+    text-decoration:none; /* немає підкреслення */
+    }
+    A:visited { /* стиль відвіданого посилання */
+    color: blueviolet; /* колір – темно-синій*/
+    text-decoration:none;
+    }
+    A:hover { /* стиль посилання, поверх якого знаходиться курсор "миші" */
+    color: red; /* колір – червоний*/
+    text-decoration:underline; /* підкреслена */
+    }
+    
